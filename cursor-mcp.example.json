@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "qualypath-mcp": {
+      "command": "npx",
+      "args": ["tsx", "D:/Projects/qualypath-mcp/src/index.ts"],
+      "env": {
+        "QUALYPATH_API_URL": "https://localhost:44304/api",
+        "QUALYPATH_TLS_INSECURE": "true",
+        "QUALYPATH_JWT_TOKEN": "your-jwt-token",
+        "QUALYPATH_USER_EMAIL": "your-email@example.com",
+        "GROQ_API_KEY": "your-groq-api-key",
+        "GROQ_MODEL": "llama-3.3-70b-versatile"
+      }
+    }
+  }
+}
